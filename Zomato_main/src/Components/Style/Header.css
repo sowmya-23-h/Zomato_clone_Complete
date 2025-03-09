@@ -1,0 +1,136 @@
+@font-face {
+    font-family: Poppins-semibold;
+    src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: Poppins-bold;
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-regular;
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-medium;
+    src: url(../Poppins/Poppins-Medium.ttf);
+}
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@700&display=swap');*/
+
+.fillogo{
+    background-color: #CE0505;
+    height:80px ;
+    width: 1366;
+}
+.elogo{
+    background-color: #FFFFFF;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 112px;
+    margin-top: 14px;
+}
+.tlogo{
+    font-family: poppins-semibold ;
+    font-size:33px ;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #EB2929;
+    margin: 0px;
+    padding-left: 9px;
+}
+.fillogin{
+    position: absolute;
+    color: #FFFFFF;
+    font-family: Poppins-medium;
+    font-size: 16px;
+    top: 25px;
+    left: 1015px;
+    width: 250px;
+    height: 46px;
+    cursor: pointer;
+    border: none;
+}
+.fillogintxt{
+    all: unset;
+}
+a:-webkit-any-link{
+    color: none;
+    text-decoration: none;
+}
+.Container{
+    padding: 20px;
+}
+.account{
+    font-size: 16px;
+    font-family: poppins-medium;
+    color: #FFFFFF;
+}
+.img-thumbnail{
+    height: 60px;
+}
+.noAccount{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Poppins-regular';
+    font-size: 16px;
+}
+.noAccount span {
+    color: #ED5A6B;
+    cursor: pointer;
+}
+.LoginPage{
+    color: #192F60;
+    font-size: 30px;
+    font-family: poppins-semibold;
+}
+.loginGoggle{
+    font-size: 18px;
+    font-family: poppins-medium;
+    color: #192F60;
+}
+.logo_google {
+    width: 8%;
+    position: absolute;
+    width: 29px;
+    height: 22px;
+    top: 26.9em;
+    left: 4.8em;
+    background: #fff;
+    padding: 5px;
+    object-fit: cover;
+}
+.loginLine {
+    color: red;
+}
+.lineOr{
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+.atlesUserImage{
+    height: 60px;
+}
+.accountName{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: poppins-medium;
+    margin-top: 18px;
+    margin-left: 10px;
+}
+.accountLogOut{
+    font-size: 16px;
+    font-family: poppins-medium;
+    background-color: transparent;
+    margin-left: 10px;
+}
+.GoogleName{
+    font-size: 16px;
+    font-family: poppins-medium;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+.googleContainer{
+    margin-left: 15rem;
+}
